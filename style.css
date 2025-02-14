@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -49,4 +53,29 @@ body {
 }
 #scarpa3 h2 {
     color: green;
+}
+
+.nav {
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 20px;
+    z-index: 1000;
+}
+.nav li {
+    display: inline-block;
+}
+.nav li a {
+    display: inline-block;
+    color: #000;
+    background-color: white;
+    text-decoration: none;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 30px;
+    margin: 0 10px;
+    border: 1px solid #000;
+    border-radius: 50%;
 }
