@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', 'Candal', sans-serif;
+}
+.shoe-section {
+    min-height: 100vh;
+    position: relative;
+}
+
+.shoe-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.shoe-content img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+.shoe-content h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 60px;
+}
+
+#scarpa1 {
+    background-color: red;
+}
+#scarpa1 h2 {
+    color: yellow;
+}
+
+#scarpa2 {
+    background-color: blue;
+}
+#scarpa2 h2 {
+    color: yellow;
+}
+
+#scarpa3 {
+    background-color: yellow;
+}
+#scarpa3 h2 {
+    color: green;
+}
